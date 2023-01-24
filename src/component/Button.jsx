@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Lablel2 from './Label';
+import style from './Button.module.css';
 
 function Button(props){
   const [click, setClick] = useState('');
@@ -12,7 +12,7 @@ function Button(props){
 
 function Label(){
   return(
-    <p>
+    <p className={style.bgButton}>
       Ini Label
     </p>
   );

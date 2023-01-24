@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import Button, { Label } from './component/Button';
 import './App.css';
+
+//props => cara untuk mengirim data ke children component
+// parent App.js children Button
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Hello world</h1>
+      <Button data="Aqil">Fadly</Button><br/>
+      <Button data="Fadly">Tanjung</Button>
+      <Label />
+    </>
   );
 }
 

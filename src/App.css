@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.bg-primary {
+  color: red;
+}
+.bg-button {
+  background-color: yellow;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

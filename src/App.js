@@ -1,6 +1,7 @@
 import React from 'react';
 import Increment from './component/Increment';
 import Input from './component/Input';
+import Dropdown from './component/Dropdown';
 import './App.css';
 
 //props => cara untuk mengirim data ke children component
@@ -17,7 +18,8 @@ function App() {
         Ini CHildrennya
       </LabelComponent>
       <Increment /> */}
-      <Input />
+      {/* <Input /> */}
+      <Dropdown />
     </>
   );
 }

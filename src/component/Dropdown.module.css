@@ -1,0 +1,17 @@
+.dropdownWrapper{
+  position: relative;
+}
+.dropdown-btn{
+  width:150px;
+  height: 50px;
+  background: pink;
+}
+.dropdown-list{
+  max-height: 250px;
+  background: yellow;
+  width: 150px;
+  overflow-y: auto;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}

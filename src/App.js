@@ -4,6 +4,7 @@ import Input from './component/Input';
 import Dropdown from './component/Dropdown';
 import './App.css';
 import 'typeface-nunito';
+import MainLayout from './component/MainLayout';
 
 //props => cara untuk mengirim data ke children component
 // parent App.js children Button
@@ -11,17 +12,7 @@ import 'typeface-nunito';
 function App() {
 
   return (
-    <>
-      {/* <h1>Hello world</h1>
-      <Button data="Aqil">Fadly</Button><br/>
-      <Button data="Fadly">Tanjung</Button>
-      <LabelComponent >
-        Ini CHildrennya
-      </LabelComponent>
-      <Increment /> */}
-      {/* <Input /> */}
-      <Dropdown />
-    </>
+    <MainLayout/>
   );
 }
 
